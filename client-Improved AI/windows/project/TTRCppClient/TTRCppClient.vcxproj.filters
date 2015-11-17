@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="datastruct">
+      <UniqueIdentifier>{4af74af9-d96c-4b33-afc0-9a8dbcd32695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{2e91f070-87cd-43f6-bb73-367ad5ea7e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="solution">
+      <UniqueIdentifier>{f5b3d8d7-8a25-4ccc-a2c5-64ceb603741d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{0bb6cd6f-5c33-43b1-90a5-34ce84a1c5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TTRClient">
+      <UniqueIdentifier>{cfd41ba1-521d-43a2-acf0-731fffe89be7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TTRCard.cpp">
+      <Filter>datastruct</Filter>
+    </ClCompile>
+    <ClCompile Include="TTRColor.c">
+      <Filter>datastruct</Filter>
+    </ClCompile>
+    <ClCompile Include="TTRDeck.cpp">
+      <Filter>datastruct</Filter>
+    </ClCompile>
+    <ClCompile Include="TTREdge.cpp">
+      <Filter>datastruct</Filter>
+    </ClCompile>
+    <ClCompile Include="TTRGenerator.cpp">
+      <Filter>datastruct</Filter>
+    </ClCompile>
+    <ClCompile Include="TTRMap.cpp">
+      <Filter>datastruct</Filter>
+    </ClCompile>
+    <ClCompile Include="TTRMission.cpp">
+      <Filter>datastruct</Filter>
+    </ClCompile>
+    <ClCompile Include="TTRNode.cpp">
+      <Filter>datastruct</Filter>
+    </ClCompile>
+    <ClCompile Include="TTRPlayer.cpp">
+      <Filter>datastruct</Filter>
+    </ClCompile>
+    <ClCompile Include="TTRTime.cpp">
+      <Filter>datastruct</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomSolution.cpp">
+      <Filter>solution</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayList.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="TTRClient.cpp">
+      <Filter>TTRClient</Filter>
+    </ClCompile>
+    <ClCompile Include="TTRClientThread.cpp">
+      <Filter>TTRClient</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TTRCard.h">
+      <Filter>datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="TTRDeck.h">
+      <Filter>datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="TTREdge.h">
+      <Filter>datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="TTRGenerator.h">
+      <Filter>datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="TTRMap.h">
+      <Filter>datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="TTRMission.h">
+      <Filter>datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="TTRNode.h">
+      <Filter>datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="TTRPlayer.h">
+      <Filter>datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="TTRTime.h">
+      <Filter>datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomSolution.h">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="TTRClient.h">
+      <Filter>TTRClient</Filter>
+    </ClInclude>
+    <ClInclude Include="TTRClientThread.h">
+      <Filter>TTRClient</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
